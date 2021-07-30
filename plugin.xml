@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android" id="com.todo1.microAppsFlutterCordovaplugin" version="1.0.0">
+   <name>microAppsFlutterCordovaplugin</name>
+
+   <js-module name="microAppsFlutterCordovaplugin" src="www/microAppsFlutterCordovaplugin.js">
+      <clobbers target="cordova.plugins.microAppsFlutterCordovaplugin" />
+   </js-module>
+
+   <platform name="ios">
+      <config-file parent="/*" target="config.xml">
+         <feature name="MicroAppsFlutterCordovaplugin">
+            <param name="ios-package" value="MicroAppsFlutterCordovaplugin" />
+         </feature>
+      </config-file>
+      <source-file src="src/ios/MicroAppsFlutterCordovaplugin.h" />
+      <source-file src="src/ios/MicroAppsFlutterCordovaplugin.m" />
+
+      <!-- start implement album module -->
+
+      <!-- Framework debug -->
+      <framework src="src/ios/framework/album/debug/App.xcframework" custom="true" embed="true" />
+      <framework src="src/ios/framework/album/debug/Flutter.xcframework" custom="true" embed="true" />
+      <framework src="src/ios/framework/album/debug/FlutterPluginRegistrant.xcframework" custom="true" embed="false" />
+      <framework src="src/ios/framework/album/debug/image_picker.xcframework" custom="true" embed="true" />
+      <framework src="src/ios/framework/album/debug/local_auth.xcframework" custom="true" embed="true" />
+      <framework src="src/ios/framework/album/debug/shared_preferences.xcframework" custom="true" embed="true" />
+      <framework src="src/ios/framework/album/debug/url_launcher.xcframework" custom="true" embed="true" />
+      <framework src="src/ios/framework/album/debug/webview_flutter.xcframework" custom="true" embed="true" />
+   </platform>
+
+</plugin>
