@@ -1,0 +1,17 @@
+{
+  "name": "microAppsFlutterPlugin",
+  "version": "1.0.0",
+  "description": "this plugin is to add flutter modules to project cordova ",
+  "cordova": {
+    "id": "com.todo1.microAppsFlutterCordovaplugin",
+    "platforms": [
+      "ios"
+    ]
+  },
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-ios"
+  ],
+  "author": "t1",
+  "license": "ISC"
+}
