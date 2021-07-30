@@ -1,34 +1,3 @@
-{
-    "es": {
-        "acordeon": {
-            "name": "Accordion",
-            "expanded": "expanded",
-            "contracted": "contracted"
-        },
-        "alert-inline": {
-            "name": "Alert."
-        },
-        "link": {
-            "name": "Link."
-        },
-        "button": {
-            "name": "Button."
-        }
-    },
-    "en": {
-        "acordeon": {
-            "name": "Accordion",
-            "expanded": "expanded",
-            "contracted": "contracted"
-        },
-        "alert-inline": {
-            "name": "Alert."
-        },
-        "link": {
-            "name": "Link."
-        },
-        "button": {
-            "name": "Button."
-        }
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:5d582c04945a28454c75713c4cd4d36806ad4e87e6f94eb5924443cf51f1a9c5
+size 688

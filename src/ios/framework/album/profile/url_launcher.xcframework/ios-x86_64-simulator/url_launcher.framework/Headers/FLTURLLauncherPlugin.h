@@ -1,8 +1,3 @@
-// Copyright 2013 The Flutter Authors. All rights reserved.
-// Use of this source code is governed by a BSD-style license that can be
-// found in the LICENSE file.
-
-#import <Flutter/Flutter.h>
-
-@interface FLTURLLauncherPlugin : NSObject <FlutterPlugin>
-@end
+version https://git-lfs.github.com/spec/v1
+oid sha256:635196b3b2919e4a373dedd6fb32dcc23664372207da818aaf7f9e7e6c393a5c
+size 258

@@ -1,21 +1,3 @@
-#ifdef __OBJC__
-#import <UIKit/UIKit.h>
-#else
-#ifndef FOUNDATION_EXPORT
-#if defined(__cplusplus)
-#define FOUNDATION_EXPORT extern "C"
-#else
-#define FOUNDATION_EXPORT extern
-#endif
-#endif
-#endif
-
-#import "FLTImagePickerImageUtil.h"
-#import "FLTImagePickerMetaDataUtil.h"
-#import "FLTImagePickerPhotoAssetUtil.h"
-#import "FLTImagePickerPlugin.h"
-#import "FLTPHPickerSaveImageToPathOperation.h"
-
-FOUNDATION_EXPORT double image_pickerVersionNumber;
-FOUNDATION_EXPORT const unsigned char image_pickerVersionString[];
-
+version https://git-lfs.github.com/spec/v1
+oid sha256:3b98b454f75c9a8b67cebd9add53176bde6de4bf65a2deb0157f44b5d9ebdeb4
+size 513

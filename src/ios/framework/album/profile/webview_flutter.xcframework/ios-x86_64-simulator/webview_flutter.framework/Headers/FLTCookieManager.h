@@ -1,14 +1,3 @@
-// Copyright 2013 The Flutter Authors. All rights reserved.
-// Use of this source code is governed by a BSD-style license that can be
-// found in the LICENSE file.
-
-#import <Flutter/Flutter.h>
-#import <WebKit/WebKit.h>
-
-NS_ASSUME_NONNULL_BEGIN
-
-@interface FLTCookieManager : NSObject <FlutterPlugin>
-
-@end
-
-NS_ASSUME_NONNULL_END
+version https://git-lfs.github.com/spec/v1
+oid sha256:a4ed1d78366f0a15afdb401b5d637f0b4b4bc931a7b82865f87ebd6d0917f678
+size 329

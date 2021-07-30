@@ -1,6 +1,3 @@
-framework module shared_preferences {
-  umbrella header "shared_preferences-umbrella.h"
-
-  export *
-  module * { export * }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:4a2103ad88e61ec20a8596773e225e45e8ba41077b3fd7d72b094466ada26a49
+size 126

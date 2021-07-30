@@ -1,19 +1,3 @@
-// Copyright 2013 The Flutter Authors. All rights reserved.
-// Use of this source code is governed by a BSD-style license that can be
-// found in the LICENSE file.
-
-#import <Flutter/Flutter.h>
-#import <Foundation/Foundation.h>
-#import <WebKit/WebKit.h>
-
-NS_ASSUME_NONNULL_BEGIN
-
-@interface FLTWKProgressionDelegate : NSObject
-
-- (instancetype)initWithWebView:(WKWebView *)webView channel:(FlutterMethodChannel *)channel;
-
-- (void)stopObservingProgress:(WKWebView *)webView;
-
-@end
-
-NS_ASSUME_NONNULL_END
+version https://git-lfs.github.com/spec/v1
+oid sha256:9ec0827abe104fb392e7aaecffaef9980cf9021437026593c024e8c2c2dc150f
+size 503
