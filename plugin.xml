@@ -17,15 +17,15 @@
 
       <!-- start implement album module -->
 
-      <!-- Framework debug -->
-      <framework src="src/ios/framework/album/debug/App.xcframework" custom="true" embed="true" />
-      <framework src="src/ios/framework/album/debug/Flutter.xcframework" custom="true" embed="true" />
-      <framework src="src/ios/framework/album/debug/FlutterPluginRegistrant.xcframework" custom="true" embed="false" />
-      <framework src="src/ios/framework/album/debug/image_picker.xcframework" custom="true" embed="true" />
-      <framework src="src/ios/framework/album/debug/local_auth.xcframework" custom="true" embed="true" />
-      <framework src="src/ios/framework/album/debug/shared_preferences.xcframework" custom="true" embed="true" />
-      <framework src="src/ios/framework/album/debug/url_launcher.xcframework" custom="true" embed="true" />
-      <framework src="src/ios/framework/album/debug/webview_flutter.xcframework" custom="true" embed="true" />
+      <!-- Framework Release -->
+      <framework src="src/ios/framework/album/release/App.xcframework" custom="true" embed="true" />
+      <framework src="src/ios/framework/album/release/Flutter.xcframework" custom="true" embed="true" />
+      <framework src="src/ios/framework/album/release/FlutterPluginRegistrant.xcframework" custom="true" embed="false" />
+      <framework src="src/ios/framework/album/release/image_picker.xcframework" custom="true" embed="true" />
+      <framework src="src/ios/framework/album/release/local_auth.xcframework" custom="true" embed="true" />
+      <framework src="src/ios/framework/album/release/shared_preferences.xcframework" custom="true" embed="true" />
+      <framework src="src/ios/framework/album/release/url_launcher.xcframework" custom="true" embed="true" />
+      <framework src="src/ios/framework/album/release/webview_flutter.xcframework" custom="true" embed="true" />
    </platform>
 
 </plugin>
