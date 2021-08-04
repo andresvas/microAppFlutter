@@ -12,8 +12,8 @@
             <param name="ios-package" value="MicroAppsFlutterCordovaplugin" />
          </feature>
       </config-file>
-     <!-- <source-file src="src/ios/MicroAppsFlutterCordovaplugin.h" />
-      <source-file src="src/ios/MicroAppsFlutterCordovaplugin.m" />-->
+      <header-file src="src/ios/MicroAppsFlutterCordovaplugin.h" />
+      <source-file src="src/ios/MicroAppsFlutterCordovaplugin.m" />
 
       <!-- start implement album module -->
 
