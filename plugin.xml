@@ -26,6 +26,10 @@
       <framework src="src/ios/framework/album/release/shared_preferences.xcframework" custom="true" embed="true" />
       <framework src="src/ios/framework/album/release/url_launcher.xcframework" custom="true" embed="true" />
       <framework src="src/ios/framework/album/release/webview_flutter.xcframework" custom="true" embed="true" />
+
+        <hook type="before_plugin_install" src="hooks/ios_build_config.js"/>
+        <hook type="after_plugin_install" src="hooks/ios_embed_framework_hook.js"/>
+      
    </platform>
 
 </plugin>
