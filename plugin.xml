@@ -20,7 +20,7 @@
       <!-- Framework Release -->
       <framework src="src/ios/framework/album/release/App.xcframework" custom="true" embed="true" />
       <framework src="src/ios/framework/album/release/Flutter.xcframework" custom="true" embed="true" />
-      <framework src="src/ios/framework/album/release/FlutterPluginRegistrant.xcframework" custom="true" embed="false" />
+      <!-- <framework src="src/ios/framework/album/release/FlutterPluginRegistrant.xcframework" custom="true" embed="false" />  -->
       <framework src="src/ios/framework/album/release/image_picker.xcframework" custom="true" embed="true" />
       <framework src="src/ios/framework/album/release/local_auth.xcframework" custom="true" embed="true" />
       <framework src="src/ios/framework/album/release/shared_preferences.xcframework" custom="true" embed="true" />
