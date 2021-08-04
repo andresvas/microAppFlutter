@@ -9,27 +9,27 @@
 
 @implementation MicroAppsFlutterCordovaplugin
 
-FlutterEngine *flutterEngine = nil;
-FlutterMethodChannel *channel = nil;
-FlutterViewController *controller = nil;
+FlutterEngine *flutterEngine;
+FlutterMethodChannel *channel;
+FlutterViewController *controller;
 
 
 
 - (void)openMicroApp:(CDVInvokedUrlCommand*)command
 {
-    CDVPluginResult* pluginResult = nil;
+    CDVPluginResult* pluginResult;
     NSNumber *number = [command.arguments objectAtIndex:0];
     BOOL isModal = [number boolValue];
     NSString *route = [command.arguments objectAtIndex:1];
     NSArray *customPoint = [command.arguments objectAtIndex:2];
-    FlutterViewController *flutterViewController = nil;
+    FlutterViewController *flutterViewController;
         
     
     @try {
-        if (flutterEngine == nil) {
+        if (flutterEngine == NULL) {
             flutterEngine = [[FlutterEngine alloc] initWithName:@"flutterEngine"];
         } else {
-            flutterEngine.viewController = nil;
+            flutterEngine.viewController = NULL;
         }
         
         if (![route isEqual:[NSNull null]] && route.length > 0) {
@@ -61,10 +61,10 @@ FlutterViewController *controller = nil;
 
 -(FlutterViewController*)createEngineFromMain:(BOOL) typeModal {
     
-    [flutterEngine runWithEntrypoint:nil];
+    [flutterEngine runWithEntrypoint:NULL];
     
     controller =
-        [[FlutterViewController alloc] initWithEngine:flutterEngine nibName:nil bundle:nil];
+        [[FlutterViewController alloc] initWithEngine:flutterEngine nibName:NULL bundle:NULL];
     
     [self addTypeModal:typeModal];
     
@@ -73,9 +73,9 @@ FlutterViewController *controller = nil;
 
 -(FlutterViewController*) createEngineWithInitial:(NSString *)route which:(BOOL)typeModal {
     
-    [flutterEngine runWithEntrypoint:nil initialRoute:route];
+    [flutterEngine runWithEntrypoint:NULL initialRoute:route];
     
-    controller = [[FlutterViewController alloc] initWithEngine:flutterEngine nibName:nil bundle:nil];
+    controller = [[FlutterViewController alloc] initWithEngine:flutterEngine nibName:NULL bundle:NULL];
     
     [self addTypeModal:typeModal];
     
@@ -86,7 +86,7 @@ FlutterViewController *controller = nil;
 
     [flutterEngine runWithEntrypoint:entryPoint libraryURI:uri];
     
-    controller = [[FlutterViewController alloc] initWithEngine:flutterEngine nibName:nil bundle:nil];
+    controller = [[FlutterViewController alloc] initWithEngine:flutterEngine nibName:NULL bundle:NULL];
     
     [self addTypeModal:typeModal];
     
@@ -113,7 +113,7 @@ FlutterViewController *controller = nil;
                
             }
            
-            [self.viewController dismissViewControllerAnimated:nil completion:nil];
+            [self.viewController dismissViewControllerAnimated:NULL completion:NULL];
             
         } else {
             result(FlutterMethodNotImplemented);
