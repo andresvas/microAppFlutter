@@ -5,7 +5,10 @@
 //  Created by Andres Felipe Vasquez Saldarriaga on 27/07/21.
 //
 
+#import <Foundation/Foundation.h>
 #import "MicroAppsFlutterCordovaplugin.h"
+
+
 
 @implementation MicroAppsFlutterCordovaplugin
 
