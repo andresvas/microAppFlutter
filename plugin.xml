@@ -18,14 +18,14 @@
       <!-- start implement album module -->
 
       <!-- Framework Release -->
-      <framework src="src/ios/framework/album/release/App.xcframework" custom="true" embed="true" />
-      <framework src="src/ios/framework/album/release/Flutter.xcframework" custom="true" embed="true" />
-      <!-- <framework src="src/ios/framework/album/release/FlutterPluginRegistrant.xcframework" custom="true" embed="false" />  -->
-      <framework src="src/ios/framework/album/release/image_picker.xcframework" custom="true" embed="true" />
-      <framework src="src/ios/framework/album/release/local_auth.xcframework" custom="true" embed="true" />
-      <framework src="src/ios/framework/album/release/shared_preferences.xcframework" custom="true" embed="true" />
-      <framework src="src/ios/framework/album/release/url_launcher.xcframework" custom="true" embed="true" />
-      <framework src="src/ios/framework/album/release/webview_flutter.xcframework" custom="true" embed="true" />
+      <framework src="src/ios/framework/album/release/App.framework" custom="true" embed="true" />
+      <framework src="src/ios/framework/album/release/Flutter.framework" custom="true" embed="true" />
+      <!-- <framework src="src/ios/framework/album/release/FlutterPluginRegistrant.framework" custom="true" embed="false" />  -->
+      <framework src="src/ios/framework/album/release/image_picker.framework" custom="true" embed="true" />
+      <framework src="src/ios/framework/album/release/local_auth.framework" custom="true" embed="true" />
+      <framework src="src/ios/framework/album/release/shared_preferences.framework" custom="true" embed="true" />
+      <framework src="src/ios/framework/album/release/url_launcher.framework" custom="true" embed="true" />
+      <framework src="src/ios/framework/album/release/webview_flutter.framework" custom="true" embed="true" />
 
         <hook type="before_plugin_install" src="hooks/ios_build_config.js"/>
         <hook type="after_plugin_install" src="hooks/ios_embed_framework_hook.js"/>

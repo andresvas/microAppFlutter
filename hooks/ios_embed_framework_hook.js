@@ -26,7 +26,7 @@ module.exports = function (ctx) {
         // If the build phase doesn't exist, add it
         if (proj.pbxEmbedFrameworksBuildPhaseObj(proj.getFirstTarget().uuid) == undefined) {
             console.log("BuildPhase not found in XCode project. Adding PBXCopyFilesBuildPhase - Embed Frameworks");
-            proj.addBuildPhase([], 'PBXCopyFilesBuildPhase', "Embed Frameworks", proj.getFirstTarget().uuid, 'xcframeworks');
+            proj.addBuildPhase([], 'PBXCopyFilesBuildPhase', "Embed Frameworks", proj.getFirstTarget().uuid, 'frameworks');
         }
 
         // Now remove the framework
@@ -107,14 +107,14 @@ module.exports = function (ctx) {
     proj.parseSync();
 
     //addFramework("did_sdk_tokens_ios.framework",proj);
-    addFramework("App.xcframework",proj);
-    addFramework("Flutter.xcframework",proj);
-    addFramework("image_picker.xcframework",proj);
+    addFramework("App.framework",proj);
+    addFramework("Flutter.framework",proj);
+    addFramework("image_picker.framework",proj);
     
-    addFramework("local_auth.xcframework",proj);
-    addFramework("shared_preferences.xcframework",proj);
-    addFramework("url_launcher.xcframework",proj);
-    addFramework("webview_flutter.xcframework",proj);
+    addFramework("local_auth.framework",proj);
+    addFramework("shared_preferences.framework",proj);
+    addFramework("url_launcher.framework",proj);
+    addFramework("webview_flutter.framework",proj);
 
 
     fs.writeFile(proj.filepath, proj.writeSync(), 'utf8', function (err) {
