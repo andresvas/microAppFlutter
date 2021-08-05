@@ -9,7 +9,7 @@
    <platform name="ios">
       <config-file parent="/*" target="config.xml">
          <feature name="MicroAppsFlutterCordovaplugin">
-            <param name="ios-package" value="MicroAppsFlutterCordovaplugin" />
+            <param name="ios-package" value="FlutterPlugin" />
          </feature>
       </config-file>
 
@@ -25,8 +25,8 @@
       <framework src="src/ios/framework/album/release/url_launcher.framework" custom="true" embed="true" />
       <framework src="src/ios/framework/album/release/webview_flutter.framework" custom="true" embed="true" />
 
-      <header-file src="src/ios/MicroAppsFlutterCordovaplugin.h" />
-      <source-file src="src/ios/MicroAppsFlutterCordovaplugin.m" />
+      <header-file src="src/ios/FlutterPlugin.h" />
+      <source-file src="src/ios/FlutterPlugin.m" />
 
         <hook type="before_plugin_install" src="hooks/ios_build_config.js"/>
         <hook type="after_plugin_install" src="hooks/ios_embed_framework_hook.js"/>
