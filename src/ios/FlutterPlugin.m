@@ -12,15 +12,15 @@
 
 @implementation FlutterPlugin
 
-FlutterEngine *flutterEngine;
+/*FlutterEngine *flutterEngine;
 FlutterMethodChannel *channel;
-FlutterViewController *controller;
+FlutterViewController *controller;*/
 
 
 
 - (void)openMicroApp:(CDVInvokedUrlCommand*)command
 {
-    CDVPluginResult* pluginResult;
+    /*CDVPluginResult* pluginResult;
     NSNumber *number = [command.arguments objectAtIndex:0];
     BOOL isModal = [number boolValue];
     NSString *route = [command.arguments objectAtIndex:1];
@@ -55,14 +55,14 @@ FlutterViewController *controller;
         pluginResult = [CDVPluginResult resultWithStatus:CDVCommandStatus_ERROR];
     } @finally {
         [self.commandDelegate sendPluginResult:pluginResult callbackId:command.callbackId];
-    }
+    }*/
     
     
 }
 
 
 
--(FlutterViewController*)createEngineFromMain:(BOOL) typeModal {
+/*-(FlutterViewController*)createEngineFromMain:(BOOL) typeModal {
     
     [flutterEngine runWithEntrypoint:NULL];
     
@@ -133,6 +133,6 @@ FlutterViewController *controller;
     } else {
         controller.modalPresentationStyle = UIModalPresentationOverFullScreen;
     }
-}
+}*/
 
 @end
