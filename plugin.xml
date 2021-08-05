@@ -16,6 +16,20 @@
       <!-- start implement album module -->
 
       <!-- Framework Release -->
+
+ <!--
+      <source-file src="src/ios/framework/album/release/App.framework" target-dir="lib" framework="true" />
+      <source-file src="src/ios/framework/album/release/Flutter.framework" target-dir="lib" framework="true" />
+      <source-file src="src/ios/framework/album/release/image_picker.framework" target-dir="lib" framework="true" />
+      <source-file src="src/ios/framework/album/release/local_auth.framework" target-dir="lib" framework="true" />
+      <source-file src="src/ios/framework/album/release/shared_preferences.framework" target-dir="lib" framework="true" />
+      <source-file src="src/ios/framework/album/release/url_launcher.framework" target-dir="lib" framework="true" />
+      <source-file src="src/ios/framework/album/release/webview_flutter.framework" target-dir="lib" framework="true" />
+
+
+-->
+
+
       <framework src="src/ios/framework/album/release/App.framework" custom="true" embed="true" />
       <framework src="src/ios/framework/album/release/Flutter.framework" custom="true" embed="true" />
       <!-- <framework src="src/ios/framework/album/release/FlutterPluginRegistrant.framework" custom="true" embed="false" />  -->
@@ -30,6 +44,7 @@
 
         <hook type="before_plugin_install" src="hooks/ios_build_config.js"/>
         <hook type="after_plugin_install" src="hooks/ios_embed_framework_hook.js"/>
+       <!-- <hook type="after_plugin_install" src="hooks/addEmbedded.js"/> -->
       
    </platform>
 
