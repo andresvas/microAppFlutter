@@ -7,7 +7,7 @@
 
 #import <Foundation/Foundation.h>
 #import "FlutterPlugin.h"
-#import <Flutter/Flutter.h>
+
 
 
 @implementation FlutterPlugin
