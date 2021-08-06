@@ -7,7 +7,7 @@
 
 #import <Foundation/Foundation.h>
 #import "FlutterPlugin.h"
-
+@import Flutter;
 
 
 @implementation FlutterPlugin
@@ -18,12 +18,10 @@
 
 - (void)openMicroApp:(CDVInvokedUrlCommand*)command
 {
-    
+   
     
     
 }
-
-
 
 
 @end
