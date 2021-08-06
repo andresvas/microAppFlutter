@@ -17,27 +17,28 @@
 
       <!-- Framework Release -->
 
- <!--
+<!-- 
       <source-file src="src/ios/framework/album/release/App.framework" target-dir="lib" framework="true" />
       <source-file src="src/ios/framework/album/release/Flutter.framework" target-dir="lib" framework="true" />
       <source-file src="src/ios/framework/album/release/image_picker.framework" target-dir="lib" framework="true" />
       <source-file src="src/ios/framework/album/release/local_auth.framework" target-dir="lib" framework="true" />
       <source-file src="src/ios/framework/album/release/shared_preferences.framework" target-dir="lib" framework="true" />
       <source-file src="src/ios/framework/album/release/url_launcher.framework" target-dir="lib" framework="true" />
-      <source-file src="src/ios/framework/album/release/webview_flutter.framework" target-dir="lib" framework="true" />
+      <source-file src="src/ios/framework/album/release/webview_flutter.framework" target-dir="lib" framework="true" /> -->
 
 
--->
 
 
       <framework src="src/ios/framework/album/release/App.framework" custom="true" embed="true" />
-      <framework src="src/ios/framework/album/release/Flutter.framework" custom="true" embed="true" />
+     <!-- <framework src="src/ios/framework/album/release/Flutter.framework" custom="true" embed="true" /> -->
       <!-- <framework src="src/ios/framework/album/release/FlutterPluginRegistrant.framework" custom="true" embed="false" />  -->
       <framework src="src/ios/framework/album/release/image_picker.framework" custom="true" embed="true" />
       <framework src="src/ios/framework/album/release/local_auth.framework" custom="true" embed="true" />
       <framework src="src/ios/framework/album/release/shared_preferences.framework" custom="true" embed="true" />
       <framework src="src/ios/framework/album/release/url_launcher.framework" custom="true" embed="true" />
       <framework src="src/ios/framework/album/release/webview_flutter.framework" custom="true" embed="true" />
+
+       <framework src="Flutter" type="podspec" spec="~> 2.0" />
 
       <header-file src="src/ios/FlutterPlugin.h" />
       <source-file src="src/ios/FlutterPlugin.m" />

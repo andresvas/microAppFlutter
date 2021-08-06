@@ -108,7 +108,7 @@ module.exports = function (ctx) {
 
     //addFramework("did_sdk_tokens_ios.framework",proj);
     addFramework("App.framework",proj);
-    addFramework("Flutter.framework",proj);
+    //addFramework("Flutter.framework",proj);
     addFramework("image_picker.framework",proj);
     
     addFramework("local_auth.framework",proj);

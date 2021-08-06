@@ -14,9 +14,7 @@
 
 - (void)openMicroApp:(CDVInvokedUrlCommand*)command;
 
-/*-(FlutterViewController*)createEngineFromMain: (BOOL) typeModal;
--(FlutterViewController*)createEngineWithInitial:(NSString*)route which: (BOOL) typeModal;
--(FlutterViewController*)createEngine:(NSString*) entryPoint library:(NSString*) uri which: (BOOL) typeModal;*/
+
 #endif /* FlutterPlugin_h */
 @end
 
